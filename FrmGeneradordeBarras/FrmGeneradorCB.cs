@@ -41,7 +41,9 @@ namespace WindowsFormsApp1
         private string appendChecksum(string code)
         {
 
-            var checksum=0 ;
+            var checksum=0 ; 
+
+
 
             for (long j = 0; j < 100; j++)
             {
